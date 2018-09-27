@@ -37,10 +37,6 @@
 .logo{
   border-image-width:1px
 }
-.img{
-  width:60%;
-  height: 60%
-}
 
 footer {
   background-color: #19191a;
@@ -55,4 +51,16 @@ footer a {
 footer a:hover {
   color: #777;
   text-decoration: none;
+}
+.skills{
+  background-color: #f2eaf0;
+  padding: 40px;
+}
+.sobreMi{
+  background-color: #19191a;
+  padding: 40px;
+}
+.sobreMi p  {
+  color: beige;
+  font-size: 150%
 }
