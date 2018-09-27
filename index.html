@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
   <title>AlidaContreras</title>
   <link rel="shortcut icon" href="img/logo.png" />
 
@@ -15,38 +16,34 @@
 <body>
   <!--____________________________________ Barra de navegación_____________________________________________ -->
   <header>
-    <nav class="navbar navbar-default fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand py-0" href="#">
-            <img src="./img/logo.png" alt="AL">
-          </a>
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav navbar-right">
-            <li>
+    <nav class="container-fluid navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+      <div class="container">
+        <a class="navbar-brand py-0" href="#">
+          <img src="./img/logo.png" alt="AL">
+        </a>
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#myNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse bg-light d-flex" id="myNavbar">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
               <a href="#sobre_mi">UN POQUITO
                 <br> DE MI</a>
             </li>
-            <li>
-              <a href="#tour">MIS
+            <li class="nav-item">
+              <a href="#skills">MIS
                 <br> HABILIDADES</a>
             </li>
-            <li>
-              <a href="#tour">MIS
-                <br> CONOCIMIENTOS</a>
+            <li class="nav-item">
+            <a href="#conocimientos">MIS
+              <br> CONOCIMIENTOS</a>
             </li>
-            <li>
-              <a href="#portafolio">MIS
-                <br> PROYECTOS</a>
+            <li class="nav-item">
+            <a href="#portafolio">MIS
+              <br> PROYECTOS</a>
             </li>
-            <li>
-              <a href="#">
+            <li class="nav-item">
+              <a href="#conversemos">
                 <br> CONVERSEMOS</a>
             </li>
           </ul>
@@ -61,10 +58,17 @@
     <div class="container text-center col-xs-12 col-sm-8">
       <p>Front-end Developer</p>
       <p>
-        <em>Hola! Soy Alida Contreras y una feliz desarrolladora web, soy de la maravillosa ciudad de Huancayo y amo eso. Me
-          considero una persona multifacética ya que cuando no estoy programando me encontraras cantando, bailando, leyendo
+        <em>Hola! Soy Alida Contreras y una feliz desarrolladora web, soy de la maravillosa ciudad de Huancayo y amo
+          eso. Me
+          considero una persona multifacética ya que cuando no estoy programando me encontraras cantando, bailando,
+          leyendo
           o haciendo alguna manualidad; me encanta la tecnología y todo lo que se puede hacer con ella.
         </em>
+        <br>
+        <img class="pull-left" src="img/pruebaOK.png" alt="">
+        <img class="pull-left" src="img/pruebaOK.png" alt="">
+        <img class="pull-left" src="img/pruebaOK1.png" alt="">
+        <img class="pull-left" src="img/pruebaOK1.png" alt="">
       </p>
     </div>
     <div class="container-fluid col-xs-12 col-sm-4 ">
@@ -103,14 +107,37 @@
   <!-- _________________________________FIN HABILIDADES BLANDAS___________________________________________ -->
 
   <!-- ________________________________________MIS CONOCIMIENTOS_______________________________________________________ -->
-  <div>
-    <div class="row">
-      <div class="col">
-
-      </div>
+  <div class="conocimientos container-fluid">
+    <div class="col-xs-4">
+      <a href="https://www.javascript.com/">
+        <img src="img/1.JAVASCRIPT.png" alt="">
+      </a>
+      <br>
+      <a href="">
+        <img src="img/4.FIREBASE.png" alt="">
+      </a>
+    </div>
+    <div class="col-xs-4">
+      <a href="">
+        <img src="img/2.HTML5.png" alt="">
+      </a>
+      <br>
+      <a href="">
+        <img src="img/5.BOOTSTRAP.png" alt="">
+      </a>
 
     </div>
-    <div class="row">
+    <div class="col-xs-4">
+      <a href="">
+        <img src="img/3.CSS3.png" alt="">
+      </a>
+      <br>
+      <a href="">
+        <img src="img/6.NODE.png" alt="">
+      </a>
+
+
+
 
     </div>
 
@@ -119,50 +146,53 @@
 
   <!-- ________________________________________MIS PROYECTOS_______________________________________________________ -->
   <div>
+    <img src="img/1.CIPHER.png" alt="">
+    <img src="img/2.DASHBOARD.png" alt="">
+    <img src="img/3.REDSOCIAL.png" alt="">
 
   </div>
   <!-- _________________________________FIN MIS PROYECTOS___________________________________________ -->
 
   <!-- ________________________________________FOOTER (CONVERSEMOS)_______________________________________________________ -->
-  <footer class="text-center ">
+  <footer class="text-center conversemos ">
     <div class="container-fluid">
-    <div class="row py-3">
-      <div class="col">
-        <h5>Envíame un email a
-          <a href="mailto:alidacontreras01@gmail.com">alidacontreras01@gmail.com</a>
-        </h5>
+      <div class="row py-3">
+        <div class="col">
+          <h5>Envíame un email a
+            <a href="mailto:alidacontreras01@gmail.com">alidacontreras01@gmail.com</a>
+          </h5>
+        </div>
       </div>
-    </div>
-    <div class=" d-flex flex-column justify-content-center">
-      <div class="col-xs-12">
-        <ul class="center nav nav-pills nav-fill ">
-          <li class="nav-item px-2">
-            <a class="nav-link" href="https://github.com/AlidaContreras" target="_blank">
-              <i class="fab fa-github"></i>
-            </a>Github
-          </li>
-          <li class="nav-item px-2">
-            <a class="nav-link" href="https://www.linkedin.com/in/alida-contreras/" target="_blank">
-              <i class="fab fa-linkedin"></i>
-            </a>LinkedIn
-          </li>
-          <li class="nav-item px-2">
-            <a class="nav-link" href="cv/CV Alida Contreras - Front-End Developer.pdf" download>
-              <i class="fas fa-download"></i>
-            </a>CV
-          </li>
-        </ul>
+      <div class=" d-flex flex-column justify-content-center">
+        <div class="col-xs-12">
+          <ul class="center nav nav-pills nav-fill ">
+            <li class="nav-item px-2">
+              <a class="nav-link" href="https://github.com/AlidaContreras" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>Github
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="https://www.linkedin.com/in/alida-contreras/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+              </a>LinkedIn
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="cv/CV Alida Contreras - Front-End Developer.pdf" download>
+                <i class="fas fa-download"></i>
+              </a>CV
+            </li>
+          </ul>
+        </div>
       </div>
+      <a class="up-arrow" href="#sobreMi" data-toggle="tooltip" title="TO TOP">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+      </a>
+      <br>
+      <br>
+      <p>Theme Made By Alida
+        <a data-toggle="tooltip"></a>
+      </p>
     </div>
-    <a class="up-arrow" href="#sobreMi" data-toggle="tooltip" title="TO TOP">
-      <span class="glyphicon glyphicon-chevron-up"></span>
-    </a>
-    <br>
-    <br>
-    <p>Theme Made By Alida
-      <a data-toggle="tooltip"></a>
-    </p>
-  </div>
   </footer>
   <!-- ________________________________________FIN DE FOOTER_______________________________________________________ -->
 
