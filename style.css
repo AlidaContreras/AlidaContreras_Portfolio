@@ -1,0 +1,58 @@
+.navbar {
+  margin-bottom: 0;
+  border: 0;
+  font-size: 13px !important;
+  letter-spacing: 3px;
+  opacity:0.8;
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand { 
+  color: #19191a !important;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+  color: rgb(33, 218, 101) !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+  color: rgb(211, 49, 49) !important;
+  background-color:#29292c !important;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+
+.navbar {
+  font-family: Montserrat, sans-serif;
+}
+/* logos de linkedin, github y descargar cv */
+.nav-item.active {
+  font-weight: 600;
+}
+.logo{
+  border-image-width:1px
+}
+.img{
+  width:60%;
+  height: 60%
+}
+
+footer {
+  background-color: #19191a;
+  color: #f5f5f5;
+  padding: 32px;
+}
+
+footer a {
+  color: #f5f5f5;
+}
+
+footer a:hover {
+  color: #777;
+  text-decoration: none;
+}
