@@ -2,7 +2,7 @@
   margin-bottom: 0;
   border: 0;
   font-size: 13px !important;
-  letter-spacing: 3px;
+  letter-spacing: 0.5px;
   opacity:0.8;
 }
 
@@ -28,7 +28,7 @@
 }
 
 .navbar {
-  font-family: Montserrat, sans-serif;
+  /* font-family: Montserrat, sans-serif; */
 }
 /* logos de linkedin, github y descargar cv */
 .nav-item.active {
@@ -92,6 +92,18 @@ footer a:hover {
 .card-img-top{
   height: 55%;;
 }
-p{
+p .letra{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+image{
+  height: 600%;
+}
+.description{
+  font-size: 80%
+}
+.lavender{
+  font-size: 85%;
+}
+.skillImg{
+  size: 50%;
 }
