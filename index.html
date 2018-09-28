@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
   <title>AlidaContreras</title>
   <link rel="shortcut icon" href="img/logo.png" />
 
@@ -14,155 +15,303 @@
 
 <body>
   <!--____________________________________ Barra de navegación_____________________________________________ -->
-  <header>
-    <nav class="navbar navbar-default fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand py-0" href="#">
-            <img src="./img/logo.png" alt="AL">
-          </a>
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav navbar-right">
-            <li>
-              <a href="#sobre_mi">UN POQUITO
-                <br> DE MI</a>
-            </li>
-            <li>
-              <a href="#tour">MIS
-                <br> HABILIDADES</a>
-            </li>
-            <li>
-              <a href="#tour">MIS
-                <br> CONOCIMIENTOS</a>
-            </li>
-            <li>
-              <a href="#portafolio">MIS
-                <br> PROYECTOS</a>
-            </li>
-            <li>
-              <a href="#">
-                <br> CONVERSEMOS</a>
-            </li>
-          </ul>
-        </div>
+  <header id="header">
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+      <a class="navbar-brand py-0" href="#home">
+        <img src="./img/logo.png" alt="AL">
+      </a>
+      <!-- Botón hamburguesa -->
+      <button id="nav-icon4" class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapsable-menu"
+        aria-controls="collapsable-menu" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="collapsable-menu">
+        <ul class="navbar-nav ml-auto text-right">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">UN POQUITO
+              <br> DE MI</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutme">MIS
+              <br> HABILIDADES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">MIS
+              <br> CONOCIMIENTOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">MIS
+              <br> PROYECTOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">
+              <br> CONVERSEMOS</a>
+          </li>
+        </ul>
       </div>
     </nav>
   </header>
   <!--____________________________________FIN Barra de navegación___________________________________________ -->
-
+  <!-- <div class="card bg-dark text-white"id="intro" >
+      <img class="card-img" src="img/wanka1.jpg" alt="Card image">
+      <div class="card-img-overlay">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text">Last updated 3 mins ago</p>
+      </div>
+    </div> -->
   <!-- _________________________________texto de descripcion________________________________________________ -->
-  <div class="container-fluid text-center row sobreMi">
-    <div class="container text-center col-xs-12 col-sm-8">
-      <p>Front-end Developer</p>
-      <p>
-        <em>Hola! Soy Alida Contreras y una feliz desarrolladora web, soy de la maravillosa ciudad de Huancayo y amo eso. Me
-          considero una persona multifacética ya que cuando no estoy programando me encontraras cantando, bailando, leyendo
-          o haciendo alguna manualidad; me encanta la tecnología y todo lo que se puede hacer con ella.
-        </em>
-      </p>
+  <section id="aboutme" class="container-fluid d-flex flex-column justify-content-center">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="row mt-3 pb-4">
+      <div class="col-8 offset-2 col-md-4 offset-md-1 col-lg-3">
+        <figure class="my-4 my-md-0">
+          <img src="img/bt71.png" alt="Alida Contreras Truevas" class="img-fluid rounded-circle">
+        </figure>
+      </div>
+      <div class="col-10 offset-1 col-md-5 col-lg-6">
+        <h2 class="display-4 text-center title">Hola!</h2>
+        <p class="mt-4">Soy Alida Contreras y una feliz desarrolladora web, soy de la maravillosa ciudad de Huancayo y amo eso. Me considero
+          una persona multifacética ya que cuando no estoy programando me encontraras cantando, bailando, leyendo o haciendo
+          alguna manualidad; me encanta la tecnología y todo lo que se puede hacer con ella, especialmente programar por
+          que me permite automatizar funciones, facilitar y optimizar procesos y porque no, la vida. Además de mi interés
+          por la tencología, tengo gran admiracion por el arte y la cultura por eso amo viajar.</p>
+        <hr>
+      </div>
     </div>
-    <div class="container-fluid col-xs-12 col-sm-4 ">
-      <img src="img/bt71.png" alt="Alida CT" class="img-thumbnail rounded float-right ">
-    </div>
-  </div>
+  </section>
+
+
   <!-- _________________________________FIN texto de descripcion___________________________________________ -->
 
   <!-- ________________________________________HABILIDADES BLANDAS_______________________________________________________ -->
-  <div class="container-fluid text-center row skills">
-    <div class="col-xs-12 col-sm-12 col-md-6 ">
-      <p>
-        <img src="img/skills/adaptation.png" alt="">
-        <br> FLEXIBILIDAD</p>
-      <p>
-        <img src="img/skills/meeting.png" alt="">
-        <br> COMUNICACION ASERTIVA</p>
-      <P>
-        <img src="img/skills/Team1.png" alt="">
-        <br> TRABAJO EN EQUIPO</P>
+  <section class="softSkills">
+    <div class="container-fluid text-center skills">
+      <div class="row mt-4 pb-4">
+        <div class="col pb-3">
+          <h2 class="display-4 title">Mis Habilidades</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 ">
+          <p>
+            <img src="img/skills/adaptation.png" alt="">
+            <br> FLEXIBILIDAD</p>
+          <p>
+            <img src="img/skills/meeting.png" alt="">
+            <br> COMUNICACION ASERTIVA</p>
+          <P>
+            <img src="img/skills/Team1.png" alt="">
+            <br> TRABAJO EN EQUIPO</P>
 
-    </div>
-    <div class="col-xs-12 col-sm-12 col-md-6 ">
-      <p>
-        <img src="img/skills/books.png" alt="">
-        <br> AUTOAPRENDIZAJE</p>
-      <p>
-        <img src="img/skills/empathy.png" alt="">
-        <br> EMPATIA</p>
-      <p>
-        <img src="img/skills/recursividad.png" alt="">
-        <br> RECURSIVIDAD</p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 ">
+          <p>
+            <img src="img/skills/books.png" alt="">
+            <br> AUTOAPRENDIZAJE</p>
+          <p>
+            <img src="img/skills/empathy.png" alt="">
+            <br> EMPATIA</p>
+          <p>
+            <img src="img/skills/recursividad.png" alt="">
+            <br> RECURSIVIDAD</p>
 
+        </div>
+      </div>
     </div>
-  </div>
+  </section>
   <!-- _________________________________FIN HABILIDADES BLANDAS___________________________________________ -->
 
   <!-- ________________________________________MIS CONOCIMIENTOS_______________________________________________________ -->
-  <div>
-    <div class="row">
-      <div class="col">
-
+  <section id="skills">
+    <div class="container text-center pt-4">
+      <div class="row mt-4 pb-4">
+        <div class="col pb-3">
+          <h2 class="display-4 title">Mis Conocimientos</h2>
+        </div>
       </div>
-
+      <div class="row">
+        <div class="col-5 offset-1 col-sm-3 offset-sm-0 col-lg-2 offset-lg-2">
+          <figure class="skill" href="https://www.javascript.com/">
+            <img class="img-fluid" src="img/1.JAVASCRIPT.png" alt="JAVASCRIPT">
+          </figure>
+          <p class="text-center">JAVASCRIPT</p>
+        </div>
+        <div class="col-5 col-sm-3 col-lg-2">
+          <figure class="skill">
+            <img class="img-fluid" src="img/2.HTML5.png" alt="HTML5">
+          </figure>
+          <p class="text-center">HTML5</p>
+        </div>
+        <div class="col-5 offset-1 col-sm-3 offset-sm-0 col-lg-2">
+          <figure class="skill p-4">
+            <img class="img-fluid" src="img/3.CSS3.png" alt="CSS3">
+          </figure>
+          <p class="text-center">CSS3</p>
+        </div>
+        <div class="col-5 col-sm-3 col-lg-2">
+          <figure class="skill">
+            <img class="img-fluid" src="img/ES6.png" alt="ES6">
+          </figure>
+          <p class="text-center">ES6</p>
+        </div>
+        <div class="col-5 offset-1 col-sm-3 offset-sm-0 col-lg-2 offset-lg-2">
+          <figure class="skill">
+            <img class="img-fluid" src="img/4.FIREBASE.png" alt="FIREBASE">
+          </figure>
+          <p class="text-center">FIREBASE</p>
+        </div>
+        <div class="col-5 col-sm-3 col-lg-2">
+          <figure class="skill">
+            <img class="img-fluid" src="img/6.NODE.png" alt="NODE.JS">
+          </figure>
+          <p class="text-center">NODE.JS</p>
+        </div>
+        <div class="col-5 offset-1 col-sm-3 offset-sm-0 col-lg-2">
+          <figure class="skill">
+            <img src="img/5.BOOTSTRAP.png" alt="BOOTSTRAP">
+          </figure>
+          <p class="text-center">BOOTSTRAP</p>
+        </div>
+        <div class="col-5 col-sm-3 col-lg-2">
+          <figure class="skill p-4">
+            <img class="img-fluid" src="img/FIGMA.png" alt="FIGMA">
+          </figure>
+          <p class="text-center">FIGMA</p>
+        </div>
+      </div>
     </div>
-    <div class="row">
-
-    </div>
-
-  </div>
+  </section>
   <!-- _________________________________FIN MIS CONOCIMIENTOS___________________________________________ -->
 
   <!-- ________________________________________MIS PROYECTOS_______________________________________________________ -->
-  <div>
+  <section>
+    <div class="container text-center pt-4">
+      <div class="row mt-4 pb-4">
+        <div class="col pb-3">
+          <h2 class="center display-4 title">Mis Proyectos</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="card col-lg-4" style="width: 19rem;">
+          <img class="card-img-top" src="img/1.CIPHERsimple.png" alt="Project Cipher">
+          <div class="card-body">
+            <h5 class="card-title">Cipher</h5>
+            <p class="card-text">Aplicativo para encriptar y desencriptar mensajes.</p>
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-12 col-sm-4 col-lg-4">
+                <a href="https://alidacontreras.github.io/lim-2018-05-bc-core-am-cipher/src/" class="lavender" target="_blank">
+                  <i class="fas fa-arrow-right"></i>Pruebame!</a>
+              </div>
+              <div class="col-12 col-sm col-lg">
+                <a href="https://github.com/AlidaContreras/lim-2018-05-bc-core-am-cipher" class="lavender" target="_blank">
+                  <i class="fab fa-github"></i> Ver codigo</a>
+              </div>
+            </div>
+          </div>
+        </div>
 
-  </div>
+        <div class="card col-lg-4" style="width: 19rem;">
+          <img class="card-img-top" src="img/2.DASHBOARDsimple.PNG" alt="Project Cipher">
+          <div class="card-body">
+            <h5 class="card-title">Data Dashboard</h5>
+            <p class="card-text">Aplicativo web para visualizar el avánce académico de las alumnas de los Cohorts de Laboratoria.</p>
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-12 col-sm-4 col-lg-4">
+                <a href="https://alidacontreras.github.io/lim-2018-05-bc-core-am-datadashboard/src/" class="lavender" target="_blank">
+                  <i class="fas fa-arrow-right"></i>Pruebame!</a>
+              </div>
+              <div class="col-12 col-sm col-lg">
+                <a href="https://github.com/AlidaContreras/lim-2018-05-bc-core-am-datadashboard" class="lavender" target="_blank">
+                  <i class="fab fa-github"></i> Ver codigo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card col-lg-4" style="width: 19rem;">
+          <img class="card-img-top" src="img/3.REDSOCIALsimple.PNG" alt="Project Cipher">
+          <div class="card-body">
+            <h5 class="card-title">Red Social</h5>
+            <p class="card-text">Urpi es una red social para viajeros del Perú, que quieran compartir sus experiencias y tips.</p>
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-12 col-sm-4 ">
+                <a href="https://alidacontreras.github.io/lim-2018-05-bc-core-am-socialnetwork/src/login.html" class="lavender" target="_blank">
+                  <i class="fas fa-arrow-right"></i>Pruebame!</a>
+              </div>
+              <div class="col-12 col-sm col-lg">
+                <a href="https://github.com/AlidaContreras/lim-2018-05-bc-core-am-socialnetwork" class="lavender" target="_blank">
+                  <i class="fab fa-github"></i> Ver codigo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+  </section>
   <!-- _________________________________FIN MIS PROYECTOS___________________________________________ -->
 
   <!-- ________________________________________FOOTER (CONVERSEMOS)_______________________________________________________ -->
-  <footer class="text-center ">
-    <div class="container-fluid">
-    <div class="row py-3">
-      <div class="col">
-        <h5>Envíame un email a
-          <a href="mailto:alidacontreras01@gmail.com">alidacontreras01@gmail.com</a>
-        </h5>
+
+  <footer class="text-center conversemos ">
+    <div class="row mt-4 pb-4">
+      <div class="col pb-3">
+        <h3 class="center display-4 title">Conversemos</h3>
       </div>
-    </div>
-    <div class=" d-flex flex-column justify-content-center">
-      <div class="col-xs-12">
-        <ul class="center nav nav-pills nav-fill ">
-          <li class="nav-item px-2">
-            <a class="nav-link" href="https://github.com/AlidaContreras" target="_blank">
-              <i class="fab fa-github"></i>
-            </a>Github
-          </li>
-          <li class="nav-item px-2">
-            <a class="nav-link" href="https://www.linkedin.com/in/alida-contreras/" target="_blank">
-              <i class="fab fa-linkedin"></i>
-            </a>LinkedIn
-          </li>
-          <li class="nav-item px-2">
-            <a class="nav-link" href="cv/CV Alida Contreras - Front-End Developer.pdf" download>
-              <i class="fas fa-download"></i>
-            </a>CV
-          </li>
-        </ul>
+      <div class="container-fluid">
+        <div class="row py-3">
+          <div class="col">
+            <h5>Envíame un email a
+              <a href="mailto:alidacontreras01@gmail.com">alidacontreras01@gmail.com</a>
+            </h5>
+          </div>
+        </div>
+        <div class=" d-flex flex-column justify-content-center">
+          <div class="col-xs-12">
+            <ul class="center nav nav-pills nav-fill ">
+              <li class="nav-item px-2">
+                <a class="nav-link" href="https://github.com/AlidaContreras" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>Github
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="https://www.linkedin.com/in/alida-contreras/" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>LinkedIn
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="cv/CV Alida Contreras - Front-End Developer.pdf" download>
+                  <i class="fas fa-download"></i>
+                </a>CV
+              </li>
+            </ul>
+          </div>
+        </div>
+        <a class="up-arrow" href="#sobreMi" data-toggle="tooltip" title="TO TOP">
+          <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <br>
+        <br>
+        <p>Theme Made By Alida
+          <a data-toggle="tooltip"></a>
+        </p>
       </div>
-    </div>
-    <a class="up-arrow" href="#sobreMi" data-toggle="tooltip" title="TO TOP">
-      <span class="glyphicon glyphicon-chevron-up"></span>
-    </a>
-    <br>
-    <br>
-    <p>Theme Made By Alida
-      <a data-toggle="tooltip"></a>
-    </p>
-  </div>
   </footer>
   <!-- ________________________________________FIN DE FOOTER_______________________________________________________ -->
 

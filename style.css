@@ -57,10 +57,41 @@ footer a:hover {
   padding: 40px;
 }
 .sobreMi{
-  /* background: linear-gradient(rgba(0,0,0, .5), rgba(0, 0, 0, 0.653)),url(../NewPorta/img/wanka1.jpg) no-repeat center center; */
+  background: linear-gradient(rgba(0,0,0, .5), rgba(0, 0, 0, 0.653)),url(../NewPorta/img/wanka1.jpg) no-repeat center center;
   padding: 40px;
 }
 .sobreMi p  {
   color: beige;
   font-size: 150%
+}
+.conocimientos {
+  background-color: rgb(175,96,83)
+}
+#skills {
+  background-color: #eacedf;
+}
+
+.skill {
+  position: relative;
+  transition: 0.5s;
+}
+
+.skill:hover {
+  opacity: .75;
+}
+.project{
+  width: 10px;
+}
+.intro{
+  background: linear-gradient(rgba(238, 236, 236, 0.049), rgba(13, 196, 74, 0.653)),no-repeat center center;
+  background-size: cover;
+}
+#perfect-intro{
+  padding-top: 54px;
+}
+.card-img-top{
+  height: 55%;;
+}
+p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
