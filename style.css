@@ -1,19 +1,19 @@
 .navbar {
   margin-bottom: 0;
   border: 0;
-  font-size: 13px !important;
+  font-size: 18px !important;
   letter-spacing: 0.5px;
   opacity:0.8;
 }
 
 /* Add a gray color to all navbar links */
 .navbar li a, .navbar .navbar-brand { 
-  color: #19191a !important;
+  color: #402f80 !important;
 }
 
 /* On hover, the links will turn white */
 .navbar-nav li a:hover {
-  color: rgb(33, 218, 101) !important;
+  color: rgb(219,242,234) !important;
 }
 
 /* The active link */
@@ -26,13 +26,15 @@
 .navbar-default .navbar-toggle {
   border-color: transparent;
 }
-
 /* logos de linkedin, github y descargar cv */
 .nav-item.active {
   font-weight: 600;
 }
 .logo{
-  border-image-width:1px
+  border-image-width:1%
+}
+.foto{
+  width: 140%
 }
 
 footer {
@@ -54,7 +56,6 @@ footer a:hover {
   padding: 40px;
 }
 .sobreMi{
-  background: linear-gradient(rgba(0,0,0, .5), rgba(0, 0, 0, 0.653)),url(../NewPorta/img/wanka1.jpg) no-repeat center center;
   padding: 40px;
 }
 .sobreMi p  {
@@ -62,10 +63,13 @@ footer a:hover {
   font-size: 150%
 }
 .conocimientos {
-  background-color: rgb(175,96,83)
+  background-color: rgb(225, 199, 235)
 }
 #skills {
   background-color: #eacedf;
+}
+.skillImg{
+  width: 110px;
 }
 
 .skill {
@@ -79,6 +83,9 @@ footer a:hover {
 .project{
   width: 10px;
 }
+.proyectos{
+  background-color: #cff2ef;
+}
 .intro{
   background: linear-gradient(rgba(238, 236, 236, 0.049), rgba(13, 196, 74, 0.653)),no-repeat center center;
   background-size: cover;
@@ -87,7 +94,12 @@ footer a:hover {
   padding-top: 54px;
 }
 .card-img-top{
-  height: 55%;;
+  height: 50%;
+  padding: 10px;
+}
+.card{
+  padding: 2%;
+  background-color:rgb(227, 227, 227) !important
 }
 p .letra{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
@@ -101,6 +113,10 @@ image{
 .lavender{
   font-size: 85%;
 }
-.skillImg{
-  size: 50%;
+.home, .main, .habilidades, .conocimientos, .proyectos{
+  height: 100vh;
+}
+.home{
+  background-repeat: no-repeat;
+  height: 100vh;
 }
