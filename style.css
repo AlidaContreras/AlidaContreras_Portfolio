@@ -1,19 +1,19 @@
 .navbar {
   margin-bottom: 0;
   border: 0;
-  font-size: 13px !important;
+  font-size: 18px !important;
   letter-spacing: 0.5px;
   opacity:0.8;
 }
 
 /* Add a gray color to all navbar links */
 .navbar li a, .navbar .navbar-brand { 
-  color: #19191a !important;
+  color: #402f80 !important;
 }
 
 /* On hover, the links will turn white */
 .navbar-nav li a:hover {
-  color: rgb(33, 218, 101) !important;
+  color: rgb(219,242,234) !important;
 }
 
 /* The active link */
@@ -26,16 +26,12 @@
 .navbar-default .navbar-toggle {
   border-color: transparent;
 }
-
-.navbar {
-  /* font-family: Montserrat, sans-serif; */
-}
 /* logos de linkedin, github y descargar cv */
 .nav-item.active {
   font-weight: 600;
 }
 .logo{
-  border-image-width:1px
+  border-image-width:1%
 }
 
 footer {
@@ -57,7 +53,6 @@ footer a:hover {
   padding: 40px;
 }
 .sobreMi{
-  background: linear-gradient(rgba(0,0,0, .5), rgba(0, 0, 0, 0.653)),url(../NewPorta/img/wanka1.jpg) no-repeat center center;
   padding: 40px;
 }
 .sobreMi p  {
@@ -106,4 +101,12 @@ image{
 }
 .skillImg{
   size: 50%;
+}
+.home, .main, .habilidades, .conocimientos, .proyectos, .conversemos{
+  height: 100vh;
+}
+.home{
+  /* background-image: url(img/wanka1.jpg); */
+  background-repeat: no-repeat;
+  height: 100vh;
 }
