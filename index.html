@@ -57,14 +57,16 @@
   <!--____________________________________FIN Barra de navegación___________________________________________ -->
   <section id="home" class="container-fluid d-flex flex-column justify-content-center home">
     
+      <img src="./img/Hola.gif" class="gif" alt="">
+    
 
   </section>
   <!-- _________________________________texto de descripcion________________________________________________ -->
   <section id="main" class="container-fluid d-flex flex-column justify-content-center main">
     <div class="row mt-3 pb-4">
       <div class="col-8 offset-2 col-md-4 offset-md-1 col-lg-3">
-        <figure class="my-4 my-md-0">
-          <img src="img/bt71.png" alt="Alida Contreras Truevas" class="img-fluid rounded-circle">
+        <figure class="my-4 my-md-0 foto">
+          <img src="img/bt71.png" alt="Alida Contreras Truevas" class="img-fluid rounded">
         </figure>
       </div>
       <div class="col-10 offset-1 col-md-5 col-lg-6">
@@ -84,8 +86,6 @@
       </div>
     </div>
   </section>
-
-
   <!-- _________________________________FIN texto de descripcion___________________________________________ -->
 
   <!-- ________________________________________HABILIDADES BLANDAS_______________________________________________________ -->
@@ -104,10 +104,9 @@
           <p>
             <img class="skillImg" src="img/skills/meeting.png" alt="">
             <br> Comunicación asertiva</p>
-          <P>
+          <p>
             <img class="skillImg" src="img/skills/Team1.png" alt="">
             <br> Trabajo en equipo</P>
-
         </div>
         <div class="col-xs-12 col-sm-12 col-md-6 ">
           <p>
@@ -125,9 +124,8 @@
     </div>
   </section>
   <!-- _________________________________FIN HABILIDADES BLANDAS___________________________________________ -->
-
   <!-- ________________________________________MIS CONOCIMIENTOS_______________________________________________________ -->
-  <section id="conocimientos" id="conocimientos">
+  <section id="conocimientos" class="conocimientos">
     <div class="container text-center pt-4">
       <div class="row mt-4 pb-4">
         <div class="col pb-3">
@@ -135,51 +133,66 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-5 offset-1 col-sm-3 offset-sm-0 col-lg-2 offset-lg-2">
-          <figure class="skill" href="https://www.javascript.com/">
-            <img class="img-fluid" src="img/1.JAVASCRIPT.png" alt="JAVASCRIPT">
+        <div class="col-5 col-sm-3 col-lg-2">
+          <figure class="figImgCono" href="https://www.javascript.com/">
+            <a href="https://www.javascript.com/">
+              <img class="img-fluid imgcono" src="img/1.JAVASCRIPT.png" alt="JAVASCRIPT">
+            </a>
           </figure>
           <p class="text-center">JavaScript</p>
         </div>
         <div class="col-5 col-sm-3 col-lg-2">
-          <figure class="skill">
-            <img class="img-fluid" src="img/2.HTML5.png" alt="HTML5">
+          <figure class="figImgCono">
+            <a href="https://codigofacilito.com/articulos/que-es-html">
+              <img class="img-fluid imgcono" src="img/2.HTML5.png" alt="HTML5">
+            </a>
           </figure>
           <p class="text-center">HTML5</p>
         </div>
-        <div class="col-5 offset-1 col-sm-3 offset-sm-0 col-lg-2">
-          <figure class="skill p-4">
-            <img class="img-fluid" src="img/3.CSS3.png" alt="CSS3">
+        <div class="col-5 col-sm-3 col-lg-2">
+          <figure class="figImgCono">
+            <a href="http://www.css3.info/">
+              <img class="img-fluid imgcono" src="img/3.CSS3.png" alt="CSS3">
+            </a>
           </figure>
           <p class="text-center">CSS3</p>
         </div>
         <div class="col-5 col-sm-3 col-lg-2">
-          <figure class="skill">
-            <img class="img-fluid" src="img/ES6.png" alt="ES6">
+          <figure class="figImgCono">
+            <a href="https://www.ecma-international.org/ecma-262/6.0/">
+              <img class="img-fluid imgcono" src="img/ES6.png" alt="ES6">
+            </a>
           </figure>
           <p class="text-center">ES6</p>
         </div>
-        <div class="col-5 offset-1 col-sm-3 offset-sm-0 col-lg-2 offset-lg-2">
-          <figure class="skill">
-            <img class="img-fluid" src="img/4.FIREBASE.png" alt="FIREBASE">
+        <div class="col-5 col-sm-3 col-lg-2">
+          <figure class="figImgCono">
+            <a href="https://firebase.google.com/">
+              <img class="img-fluid imgcono" src="img/4.FIREBASE.png" alt="FIREBASE">
+            </a>
           </figure>
           <p class="text-center">Firebase</p>
         </div>
         <div class="col-5 col-sm-3 col-lg-2">
-          <figure class="skill">
-            <img class="img-fluid" src="img/6.NODE.png" alt="NODE.JS">
+          <figure class="figImgCono">
+            <a href="https://nodejs.org/es/">
+              <img class="img-fluid imgcono" src="img/6.NODE.png" alt="NODE.JS">
+            </a>
           </figure>
           <p class="text-center">Node.js</p>
         </div>
-        <div class="col-5 offset-1 col-sm-3 offset-sm-0 col-lg-2">
-          <figure class="skill">
-            <img src="img/5.BOOTSTRAP.png" alt="BOOTSTRAP">
+        <div class="col-5 col-sm-3 col-lg-2">
+          <figure class="figImgCono">
+            <a href="https://getbootstrap.com/">
+              <img class="img-fluid imgcono" src="img/5.BOOTSTRAP.png" alt="BOOTSTRAP">
+            </a>
           </figure>
           <p class="text-center">Bootstrap</p>
         </div>
-        <div class="col-5 col-sm-3 col-lg-2">
-          <figure class="skill p-4">
-            <img class="img-fluid" src="img/FIGMA.png" alt="FIGMA">
+        <div class="col-5 col-sm-3 col-lg-2" figImgCono <figure class="figImgCono">
+          <a href="https://www.figma.com/">
+            <img class="img-fluid imgcono" src="img/FIGMA.png" alt="FIGMA">
+          </a>
           </figure>
           <p class="text-center">Figma</p>
         </div>
@@ -187,7 +200,6 @@
     </div>
   </section>
   <!-- _________________________________FIN MIS CONOCIMIENTOS___________________________________________ -->
-
   <!-- ________________________________________MIS PROYECTOS_______________________________________________________ -->
   <section class="proyectos" id="proyectos">
     <div class="container text-center pt-4">
@@ -268,9 +280,7 @@
     <br>
   </section>
   <!-- _________________________________FIN MIS PROYECTOS___________________________________________ -->
-
   <!-- ________________________________________FOOTER (CONVERSEMOS)_______________________________________________________ -->
-
   <footer class="text-center conversemos" id="conversemos">
     <div class="row mt-4 pb-4">
       <div class="col pb-3">
@@ -280,7 +290,7 @@
         <div class="row py-3">
           <div class="col">
             <h5>Escríbeme:
-              <a href="mailto:alidacontreras01@gmail.com">alidacontreras01@gmail.com</a>
+              <a class="mailText" href="mailto:alidacontreras01@gmail.com">alidacontreras01@gmail.com</a>
             </h5>
           </div>
         </div>
@@ -289,18 +299,21 @@
             <ul class="center nav nav-pills nav-fill ">
               <li class="nav-item px-2">
                 <a class="nav-link" href="https://github.com/AlidaContreras" target="_blank">
-                  <i class="fab fa-github"></i>
-                </a>Github
+                  <i class="fab fa-github iconFooter"></i>
+                </a>
+                <a class="nav-link" href="https://github.com/AlidaContreras" target="_blank">Github</a>
               </li>
               <li class="nav-item px-2">
                 <a class="nav-link" href="https://www.linkedin.com/in/alida-contreras/" target="_blank">
-                  <i class="fab fa-linkedin"></i>
-                </a>LinkedIn
+                  <i class="fab fa-linkedin iconFooter"></i>
+                </a>
+                <a class="nav-link" href="https://www.linkedin.com/in/alida-contreras/" target="_blank">LinkedIn</a>
               </li>
               <li class="nav-item px-2">
                 <a class="nav-link" href="cv/Alida Contreras - Front-end Developer.pdf" download>
-                  <i class="fas fa-download"></i>
-                </a>CV
+                  <i class="fas fa-download iconFooter"></i>
+                </a>
+                <a class="nav-link" href="cv/Alida Contreras - Front-end Developer.pdf" download>CV</a>
               </li>
             </ul>
           </div>
@@ -310,7 +323,7 @@
         </a>
         <br>
         <br>
-        <p>Theme Made By Alida
+        <p>Theme made by Alida
           <a data-toggle="tooltip"></a>
         </p>
       </div>
