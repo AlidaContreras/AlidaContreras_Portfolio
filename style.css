@@ -1,10 +1,11 @@
 p .letra{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
-.home, .main, .habilidades, .conocimientos, .proyectos, .conversemos{
+.main, .habilidades, .conocimientos, .proyectos, .conversemos{
   height: 100vh;
+  padding-top: 110px;
 }
-_________________________________navBar__________________________________________________
+/* _________________________________INICIO navBar__________________________________________________ */
 .navbar {
   margin-bottom: 0;
   border: 0;
@@ -36,63 +37,70 @@ _________________________________navBar_________________________________________
 .logo{
   border-image-width:1%
 }
-.foto{
-  width: 140%
+/* ________________________________FIN navBar__________________________________________________ */
+
+/* _________________________________INICIO main__________________________________________________ */
+.main {
+  background-image: linear-gradient(to top, #8f4b93, #a96eaa, #c392c2, #ddb7db, #f6dcf4);
+  color: #fefcfd;
+  font-weight: 350;
 }
 
-footer {
-  background-color: #19191a;
-  color: #f5f5f5;
-  padding: 32px;
+.foto {
+  text-align: center;
+  width: 80%;
 }
 
-footer a {
-  color: #f5f5f5;
-}
-
-footer a:hover {
-  color: #777;
-  text-decoration: none;
-}
-.skills{
-  background-color: #f2eaf0;
-  padding: 40px;
-}
-_________________________________navBar__________________________________________________
-_________________________________main__________________________________________________
 .sobreMi{
   padding: 40px;
 }
+
 .sobreMi p {
   color: beige;
   font-size: 150%
 }
-.conocimientos {
-  background-color: rgb(225, 199, 235)
+/* _________________________________FIN main__________________________________________________ */
+
+
+/* _________________________________INICO Skills__________________________________________________ */
+.skills{
+  background-color:#E5E8F3;
+  padding: 40px;
 }
-#skills {
-  background-color: #eacedf;
-}
+
 .skillImg{
   width: 110px;
 }
 
-.skill {
-  position: relative;
-  transition: 0.5s;
-}
-.skill:hover {
+.skillImg:hover {
   opacity: .35;
 }
+/* _________________________________FIN Skills__________________________________________________ */
+
+/* _________________________________INICIO conocimientos__________________________________________________ */
+
+
+.conocimientos {
+  background-color: rgb(124, 53, 151)
+}
+.imgConocimientos {
+  width: 90px;
+  height: 95px !important;
+}
+
+.imgConocimientos:hover {
+  opacity: .35;
+}
+
+/* _________________________________FIN conocimientos__________________________________________________ */
+
+/* _________________________________INICIO misProjects__________________________________________________ */
 .proyectos{
   background-color: #cff2ef;
 }
 .intro{
   background: linear-gradient(rgba(238, 236, 236, 0.049), rgba(13, 196, 74, 0.653)),no-repeat center center;
   background-size: cover;
-}
-.habilidades{
-  background-color:#f2eaf0;
 }
 .card-img-top{
   height: 50%;
@@ -102,10 +110,7 @@ _________________________________main___________________________________________
   padding: 2%;
   background-color:rgb(227, 227, 227) !important
 }
-.conocimientos {
-  background-color: rgb(225, 199, 235)
-}_________________________________conocimientos__________________________________________________
-_________________________________misProjects__________________________________________________
+/* _________________________________FIN misProjects__________________________________________________ */
 .project{
   width: 10px;
 }
@@ -126,3 +131,57 @@ _________________________________misProjects____________________________________
   background-repeat: no-repeat;
   height: 100vh;
 }
+/* ____________________________________________footer_____________________________________ */
+footer {
+  background-color: #19191a;
+  color: #f5f5f5;
+  padding: 32px;
+}
+
+footer a {
+  color: #f5f5f5;
+}
+
+footer a:hover {
+  color: #777;
+  text-decoration: none;
+}
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 576px) {
+  .foto {
+    margin-top: 80px;
+    margin-left: 30px;
+    width: 60%;
+  }
+  .port-text p {
+    font-size: 12px;
+  }
+}  */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 576px) {
+  .foto {
+    text-align: center;
+  }
+}  */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {
+  .foto .port-text {
+    padding: 0%;
+    padding-top: 120px;
+  }
+}  */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+  .foto {
+    padding: 0%;
+    padding-top: 30px;
+    margin: 0%
+  }
+}  */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
