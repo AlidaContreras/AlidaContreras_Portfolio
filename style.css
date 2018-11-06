@@ -11,7 +11,7 @@ p .letra{
   border: 0;
   font-size: 18px !important;
   letter-spacing: 0.5px;
-  opacity:0.8;
+  opacity:0.9;
 }
 /* Add a gray color to all navbar links */
 .navbar li a, .navbar .navbar-brand { 
@@ -41,9 +41,17 @@ p .letra{
 
 /* _________________________________INICIO main__________________________________________________ */
 .main {
-  background-image: linear-gradient(to top, #8f4b93, #a96eaa, #c392c2, #ddb7db, #f6dcf4);
-  color: #fefcfd;
+  /* background-image: linear-gradient(to top, #8f4b93, #a96eaa, #c392c2, #ddb7db, #f6dcf4); */
+  background: url('./img/hands-laptop-working-948888.jpg') center center no-repeat;
+  background-size: cover;
+  color: #081042;
   font-weight: 350;
+}
+
+.text-main {
+  background:rgba(236, 234, 240, 0.6);
+  border-radius: 15px;
+  /* opacity:inherit; */
 }
 
 .foto {
@@ -81,7 +89,8 @@ p .letra{
 
 
 .conocimientos {
-  background-color: rgb(124, 53, 151)
+  background-color: rgb(213, 202, 218);
+  padding-top: 50px;
 }
 .imgConocimientos {
   width: 90px;
@@ -97,38 +106,26 @@ p .letra{
 /* _________________________________INICIO misProjects__________________________________________________ */
 .proyectos{
   background-color: #cff2ef;
+  padding-top: 40px;
 }
-.intro{
-  background: linear-gradient(rgba(238, 236, 236, 0.049), rgba(13, 196, 74, 0.653)),no-repeat center center;
-  background-size: cover;
-}
+
 .card-img-top{
   height: 50%;
   padding: 10px;
 }
+
 .card{
   padding: 2%;
   background-color:rgb(227, 227, 227) !important
 }
-/* _________________________________FIN misProjects__________________________________________________ */
-.project{
-  width: 10px;
-}
-.card-img-top{
-  height: 50%;
-  padding: 10px;
-}
-.description{
-  font-size: 80%
-}
+
 .lavender{
   font-size: 85%;
 }
+/* _________________________________FIN misProjects__________________________________________________ */
+
+
 .home, .main, .habilidades, .conocimientos, .proyectos{
-  height: 100vh;
-}
-.home{
-  background-repeat: no-repeat;
   height: 100vh;
 }
 /* ____________________________________________footer_____________________________________ */
@@ -147,41 +144,6 @@ footer a:hover {
   text-decoration: none;
 }
 
-/* Extra small devices (phones, 600px and down) */
-/* @media only screen and (max-width: 576px) {
-  .foto {
-    margin-top: 80px;
-    margin-left: 30px;
-    width: 60%;
-  }
-  .port-text p {
-    font-size: 12px;
-  }
-}  */
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/* @media only screen and (min-width: 576px) {
-  .foto {
-    text-align: center;
-  }
-}  */
-
-/* Medium devices (landscape tablets, 768px and up) */
-/* @media only screen and (min-width: 768px) {
-  .foto .port-text {
-    padding: 0%;
-    padding-top: 120px;
-  }
-}  */
-
-/* Large devices (laptops/desktops, 992px and up) */
-/* @media only screen and (min-width: 992px) {
-  .foto {
-    padding: 0%;
-    padding-top: 30px;
-    margin: 0%
-  }
-}  */
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}
+.iconFooter {
+  width: 30px;
+}
